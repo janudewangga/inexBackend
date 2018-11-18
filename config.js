@@ -5,7 +5,7 @@ const config = {
     },
     appSecret: 'AKJSBDKAJDGHO832TDVSAKD',
     db: {
-        host: '127.0.0.1',
+        host: 'localhost',
         port: 3308,
         user: 'indonusa',
         password: 'indonusa',

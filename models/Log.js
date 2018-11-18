@@ -6,14 +6,6 @@ module.exports = function (db, sequelize) {
             defaultValue: sequelize.UUIDV4,
             primaryKey: true
         },
-        userId: {
-            type: sequelize.INTEGER(10).UNSIGNED,
-            allowNull: false
-        },
-        privilegeId: {
-            type: sequelize.INTEGER(5).UNSIGNED,
-            allowNull: false
-        },
         affectedData: {
             type: sequelize.JSON,
             allowNull: true
